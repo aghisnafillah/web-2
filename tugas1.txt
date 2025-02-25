@@ -1,0 +1,35 @@
+(1) DocumentRoot (document root) adalah istilah untuk lokasi path (direktori) di filesystem yang menyimpan root (URI = /) dari sebuah website. Agar sebuah file dapat diakses lewat website, ia perlu ditaruh di bawah DocumentRoot (atau, disymlink dari bawah DocumentRoot).
+(2) Tidak, dokumen root di Apache tidak harus selalu di C:\xampp\htdocs, meskipun itu adalah lokasi standar jika menggunakan XAMPP di Windows.
+(3) - git init (Membuat Repositori Baru)
+    Digunakan untuk membuat repositori Git baru di dalam folder proyek.
+    -git clone (Menyalin Repositori dari Server/Remote)
+    Digunakan untuk menduplikasi repositori Git yang sudah ada, biasanya dari GitHub, GitLab, atau Bitbucket.
+    -git remote (Menghubungkan ke Repositori Online)
+    Digunakan untuk menghubungkan repositori lokal ke repositori di layanan seperti GitHub.
+    -git add (Menandai Perubahan untuk Commit)
+    Digunakan untuk menambahkan file ke dalam daftar yang akan disimpan di commit berikutnya.
+    -git commit (Menyimpan Perubahan ke dalam Repositori)
+    Digunakan untuk menyimpan perubahan dengan pesan deskripsi.
+    -git push (Mengirim Perubahan ke Repositori Online)
+    Digunakan untuk mengunggah perubahan yang sudah di-commit ke repositori online.
+    -git checkout (Beralih ke Branch atau Versi Sebelumnya)
+    Digunakan untuk berpindah ke branch lain atau melihat versi sebelumnya dari kode.
+(4) Kepemilikan dan Model Bisnis
+GitHub → Dimiliki oleh Microsoft sejak 2018. Fokusnya lebih pada kolaborasi open-source dan komunitas.
+GitLab → Dikembangkan oleh GitLab Inc., menawarkan layanan yang lebih berfokus pada perusahaan dengan fitur DevOps yang kuat.
+     Hosting (Penyimpanan)
+GitHub → Hanya berbasis cloud (GitHub.com), meskipun ada versi GitHub Enterprise yang bisa di-host sendiri.
+GitLab → Bisa digunakan di cloud (GitLab.com) atau diinstall di server sendiri (self-hosted) dengan versi GitLab Community Edition (CE) yang gratis.
+    Keamanan & Kontrol Akses
+GitHub → Bisa membatasi akses dengan izin public/private, tetapi fitur keamanan lanjutan hanya di versi berbayar.
+GitLab → Punya lebih banyak opsi kontrol akses, termasuk perizinan tingkat lanjut dan keamanan kode.
+
+(5) Variabel User
+✅ Berlaku hanya untuk pengguna tertentu yang sedang login.
+✅ Disimpan di direktori pengguna (misalnya, C:\Users\NamaPengguna).
+
+   Variabel Sistem
+✅ Berlaku untuk semua pengguna di komputer.
+✅ Memengaruhi seluruh sistem, termasuk program yang dijalankan oleh administrator dan layanan sistem.
+(6) Variabel sistem adalah bagian dari sistem operasi, sedangkan variabel konstanta digunakan dalam pemrograman.
+Keduanya memiliki fungsi untuk menyimpan nilai, tetapi konstanta tidak bisa diubah, sedangkan variabel sistem bisa diubah sesuai kebutuhan. 
